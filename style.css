@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html {
+  height: 100%;
+}
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(186, 14%, 43%);
+  font-size: 24px;
+  height: 100%;
+}
+
+input {
+  background-color: hsl(189, 41%, 97%) !important;
+  border: hsl(189, 41%, 97%) !important;
+}
+.form-control::placeholder {
+  color: hsl(184, 14%, 56%);
+  font-size: 1.4rem;
+}
+.form-control:focus {
+  border-color: rgb(38, 192, 171);
+  box-shadow: 1px 1px 1px 1px rgb(38, 192, 171) inset,
+    0px 0px 0px rgb(38, 192, 171);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  width: 65%;
+
+  border-radius: 1.3rem;
+  font-size: 1.1rem;
+}
+
+.btn-tip {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  border-color: hsl(183, 100%, 15%);
+  padding: 0.4rem;
+  font-weight: 700;
+}
+
+.btn-tip:hover {
+  background-color: hsl(172, 67%, 45%);
+  border-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+#custom {
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  padding: 0.55rem;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+}
+
+#custom::placeholder {
+  text-align: center;
+}
+#gosterge {
+  background-color: hsl(183, 100%, 15%);
+}
+#tip_amount,
+#total {
+  font-size: 1.5rem;
+  color: hsl(172, 67%, 45%);
+}
+/* <div class="row">
+                <div class="col-7 p-5">
+                  <p class="m-0 text-white">Tip Amount</p>
+                  <span class="d-block fs-6">/ person</span>
+                </div>
+                <div class="col-5 p-5">
+                  <span id="tip_amount">$0.00</span>
+                </div>
+ 
+                <div class="col-7 p-5">
+                  <p class="m-0 text-white">Total</p>
+                  <span class="d-block fs-6">/ person</span>
+                </div>
+                <div class="col-5 p-5">
+                  <span id="total">$0.00</span>
+                </div>
+              </div> */
