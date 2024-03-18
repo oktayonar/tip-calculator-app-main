@@ -16,6 +16,17 @@ input {
   background-color: hsl(189, 41%, 97%) !important;
   border: hsl(189, 41%, 97%) !important;
 }
+
+.form-control {
+  color: hsl(179, 29%, 37%) !important;
+  font-weight: 700 !important;
+  font-size: large !important;
+  text-align: right !important;
+}
+
+.form-control::placeholder {
+  text-align: left;
+}
 .form-control::placeholder {
   color: hsl(184, 14%, 56%);
   font-size: 1.4rem;
@@ -47,6 +58,8 @@ input {
   border-color: hsl(183, 100%, 15%);
   padding: 0.4rem;
   font-weight: 700;
+  outline: none;
+  border: none;
 }
 
 .btn-tip:hover {
@@ -74,20 +87,11 @@ input {
   font-size: 1.5rem;
   color: hsl(172, 67%, 45%);
 }
-/* <div class="row">
-                <div class="col-7 p-5">
-                  <p class="m-0 text-white">Tip Amount</p>
-                  <span class="d-block fs-6">/ person</span>
-                </div>
-                <div class="col-5 p-5">
-                  <span id="tip_amount">$0.00</span>
-                </div>
- 
-                <div class="col-7 p-5">
-                  <p class="m-0 text-white">Total</p>
-                  <span class="d-block fs-6">/ person</span>
-                </div>
-                <div class="col-5 p-5">
-                  <span id="total">$0.00</span>
-                </div>
-              </div> */
+#reset {
+  background-color: hsl(183, 79%, 24%);
+  color: hsl(183, 82%, 22%);
+}
+#reset:hover {
+  background-color: hsl(173, 61%, 77%);
+  color: hsl(178, 68%, 21%);
+}
